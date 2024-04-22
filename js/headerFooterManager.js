@@ -88,7 +88,7 @@ customElements.define("special-sidebar", SpecialSidebar);
 class SpecialHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<nav class="navbar navbar-expand-lg p-3">
-    <div class="container px-5">
+    <div class="container-fluid container-lg px-2 px-lg-5">
       <a class="navbar-brand text-center" href="#"
         ><img
           src="../assets/images/Logo.png"
