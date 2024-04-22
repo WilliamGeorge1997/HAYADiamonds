@@ -1,0 +1,44 @@
+/* ================================== Start of Animation ==================================*/
+.top-to-bottom-hidden {
+    transform: translateY(-50%);
+    transition: all 1s;
+    opacity: 0.3;
+  }
+  .top-to-bottom-show{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  
+  .bottom-to-top-hidden {
+    transform: translateY(100%);
+    transition: all 1s;
+    opacity: 0.3;
+  }
+  .bottom-to-top-show{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+
+  .right-to-left-hidden {
+    transform: translateX(100%);
+    transition: all 1s;
+    opacity: 0.3;
+  }
+  .right-to-left-show {
+    transform: translateX(0%);
+    opacity: 1;
+
+  }
+
+  .left-to-right-hidden {
+    transform: translateX(-100%);
+    transition: all 1s;
+    opacity: 0.3;
+  }
+  .left-to-right-show {
+    transform: translateX(0%);
+    opacity: 1;
+
+  }
+  
+  /* ================================== Start of Animation ==================================*/

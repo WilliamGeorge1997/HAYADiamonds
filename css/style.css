@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@font-face {
+  font-family: Calista;
+  src: url(../fonts/Calista-Regular.otf);
+}
+@font-face {
+  font-family: Grenda;
+  src: url(../fonts/grenda.otf);
+}
+:root {
+  --main-color: #002c43;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+section {
+  margin: 6.25rem 0rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Calista;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+/* ================================== Start of Header ==================================*/
+
+header .containerbg {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+header .containerbg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/images/hero1.webp");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  transform: scale(1.1);
+  animation: carousel 13s infinite linear;
+}
+
+@keyframes carousel {
+  0% {
+    background-image: url("../assets/images/hero1.webp");
+    transform: scale(1.1);
+  }
+  40% {
+    background-image: url("../assets/images/hero1.webp");
+    transform: scale(1.2);
+  }
+
+  41% {
+    background-image: url("../assets/images/hero2.webp");
+    transform: scale(1.2);
+  }
+  100% {
+    background-image: url("../assets/images/hero2.webp");
+    transform: scale(1.3);
+  }
+}
+header h2.header-title {
+  font-weight: 400;
+  font-size: 3.75rem;
+}
+header p.header-p {
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+header a.know-more {
+  border: 1px solid #fff;
+  padding: 0.5625rem 1.5625rem;
+  color: #fff;
+}
+
+/* ================================== End of Header ==================================*/
+/* ================================== Start of Section ==================================*/
+section h2.section-title {
+  font-size: 3rem;
+  color: var(--main-color);
+}
+section.categories figure img {
+  width: 4.6875rem;
+  height: 4.6875rem;
+}
+section.categories .categories-container {
+  margin-top: 4.375rem;
+}
+section.categories .category-container {
+  margin-top: 1.25rem;
+}
+section.categories .category-container figcaption h4 {
+  color: #333;
+}
+/* ================================== End of Section ==================================*/
+/* ================================== Start of Section ==================================*/
+section.exp-container {
+  height: 100vh;
+  background-image: url("../assets/images/expbg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+section .exp-content p {
+  font-size: 1.375rem;
+}
+section .exp-content h2 {
+  font-size: 4rem;
+}
+
+/* ================================== End of Section ==================================*/
+/* ================================== Start of Section ==================================*/
+
+section.content-container {
+  height: 120vh;
+  background-image: url("../assets/images/conbg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 9.375rem 0px;
+}
+section.content-container h6 {
+  color: #cecece;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section .content-section {
+  margin-bottom: 9.375rem;
+}
+section.sm-content {
+  background-image: url("../assets/images/conbg.jpg");
+}
+section.sm-content .haya-model {
+  width: 90%;
+}
+/* ================================== End of Section ==================================*/
+/* ================================== Start of Section ==================================*/
+section.love-section p {
+  color: #00314a;
+  letter-spacing: 0.1563rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+section.love-section h2 {
+  font-size: 3rem;
+  color: #002c43;
+}
+section.love-section video {
+  object-fit: cover;
+}
+/* ================================== End of Section ==================================*/
+/* ================================== Start of Section ==================================*/
+
+section.timeless-container {
+  color: #333;
+}
+section.timeless-container h2 {
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+section.timeless-container p {
+  font-weight: 400;
+}
+/* ================================== End of Section ==================================*/
+/* ================================== Start of Section ==================================*/
+section.elegance-container {
+  background-image: url("../assets/images/elegance.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  position: relative;
+}
+section.elegance-container p {
+  font-weight: 300;
+}
+section.elegance-container h2 {
+  font-weight: 500;
+  font-size: 3rem;
+}
+section.elegance-container .front-fig {
+  position: absolute;
+  width: 31.25rem;
+  top: -7%;
+  right: 8%;
+}
+
+/* ================================== End of Section ==================================*/
+/* ================================== Start of Section ==================================*/
+section.contact-container h2,
+section.contact-container p,
+section.contact-container li,
+section.contact-container li a,
+section.contact-container li i {
+  color: #333;
+}
+section.contact-container h2 {
+  font-style: 2.25rem;
+  font-size: 2.25rem;
+}
+section.contact-container li i {
+  font-weight: 1.75rem;
+}
+section.contact-container label {
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-bottom: 0.125rem;
+}
+section.contact-container input {
+  padding: 0.625rem;
+}
+section.contact-container input,
+section.contact-container textarea {
+  margin-bottom: 0.625rem;
+  background-color: #fafafa;
+  border-radius: 0;
+}
+section.contact-container input::placeholder,
+section.contact-container textarea::placeholder {
+  color: #c9c1c3;
+  font-size: 0.8125rem;
+}
+section.contact-container input:focus,
+section.contact-container textarea:focus {
+  box-shadow: none;
+  border-color: #4285f478;
+  background-color: #fafafa;
+}
+section.contact-container .contact-submit button {
+  background-color: #00314a;
+  padding: 1.125rem 3.75rem;
+  border: none;
+}
+/* ================================== End of Section ==================================*/
+
+

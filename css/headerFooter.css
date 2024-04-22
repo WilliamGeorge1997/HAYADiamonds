@@ -1,0 +1,89 @@
+/* ================================== Start of Whatsapp ==================================*/
+.whatsapp {
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  z-index: 20;
+  border: none;
+  outline: none;
+  background-color: #25d366;
+  color: white;
+  cursor: pointer;
+  height: 3.75rem;
+  width: 3.75rem;
+  border-radius: 50%;
+  font-size: 1.125rem;
+}
+.whatsapp a i {
+  color: #fff;
+  font-size: 1.875rem;
+}
+/* ================================== End of Whatsapp ==================================*/
+/* ================================== Start of Sidebar ==================================*/
+section.sidebar-dark {
+  height: 100vh;
+  width: 0%;
+  position: fixed;
+  z-index: 50;
+  background-color: #0000009b;
+  right: 0;
+  transition: width 0.5s ease-in-out;
+}
+section.sidebar-dark .sidebar {
+  height: 100vh;
+  width: 0%;
+  background-color: #002c43;
+  position: fixed;
+  right: 0;
+  z-index: 70;
+  transition: width 0.3s linear;
+}
+.w-40 {
+  width: 40% !important;
+}
+/* ================================== End of Sidebar ==================================*/
+/* ================================== Start of Navbar ==================================*/
+nav {
+  background-color: #002c43;
+  position: fixed !important;
+  width: 100%;
+  background-color: transparent;
+  transition: 0.3s;
+  z-index: 10;
+}
+nav a {
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff !important;
+}
+nav.sticky {
+  background-color: #002c43;
+}
+.navbar-toggler:focus {
+  box-shadow: 0px 0px #fff !important;
+  border: none;
+  
+}
+.navbar-toggler{
+  border: none;
+}
+nav .navbar-toggler-icon{
+  background-image: url("../assets/images/icons8-menu.svg");
+  
+}
+/* ================================== End of Navbar ==================================*/
+/* ================================== Start of Footer ==================================*/
+footer {
+  background-color: var(--main-color);
+}
+footer h5 {
+  font-family: Grenda;
+}
+footer a span {
+  font-weight: 400;
+}
+/* ================================== End of Footer ==================================*/
+.cursor-pointer {
+  cursor: pointer;
+}

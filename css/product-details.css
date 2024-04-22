@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@font-face {
+  font-family: Calista;
+  src: url(../fonts/Calista-Regular.otf);
+}
+@font-face {
+  font-family: Grenda;
+  src: url(../fonts/grenda.otf);
+}
+:root {
+  --main-color: #002c43;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+section {
+  margin: 12.5rem 0rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Calista;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* ================================== Start of Navbar ==================================*/
+nav {
+  background-color: #002c43;
+  
+}
+section.product-details i {
+  font-size: 2.1875rem;
+}
+section.product-details a {
+  background-color: #25d366;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 0.5rem 0.9375rem;
+  border: #25d366 0.0625rem solid;
+  border-radius: 0.3125rem;
+}
+section.product-details p {
+  font-weight: 400;
+}
+section.product-details {
+  color: #333;
+}
+/* ================================== End of Navbar ==================================*/

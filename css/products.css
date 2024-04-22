@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@font-face {
+  font-family: Calista;
+  src: url(../fonts/Calista-Regular.otf);
+}
+@font-face {
+  font-family: Grenda;
+  src: url(../fonts/grenda.otf);
+}
+:root {
+  --main-color: #002c43;
+  --second-color: #333;
+  --hover-color: #23527c;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+section {
+  margin: 6.25rem 0rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Calista;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* ================================== Start of Header ==================================*/
+header .products-header {
+  height: 50vh;
+  background-image: url("../assets/images/elegance.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+/* ================================== End of Header ==================================*/
+/* ================================== Start of Section ==================================*/
+
+section .featured-products {
+  color: var(--second-color);
+}
+
+/* ================================== End of Section ==================================*/
+
+/* ================================== Start of Section ==================================*/
+section.products .product-title {
+  color: #303133;
+  font-weight: 500;
+  font-size: 1.1875rem;
+  font-family: Calista;
+}
+section.products .product-title:hover {
+  color: var(--hover-color);
+}
+section.products .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #00000013;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+section.products .overlay:hover {
+  opacity: 1;
+}
+/* ================================== End of Section ==================================*/
